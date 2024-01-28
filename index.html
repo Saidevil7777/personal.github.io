@@ -58,7 +58,12 @@
             border-radius: 8px;
             position: relative;
         }
-
+        .book-icon,
+        .code-icon {
+            font-size: 24px;
+            color: #3498db; /* Adjust the color as needed */
+            margin-right: 5px;
+        }
         section {
             margin-bottom: 30px;
         }
@@ -160,22 +165,36 @@
 
         <section>
             <h2 id="ed">Education</h2>
-            <p>Bachelor of Computer Science - VIT Chennai (2022-2026)</p>
+            <p class="education">
+                <span class="book-icon">
+                    <i class="fas fa-book"></i>
+                </span>
+                Bachelor of Computer Science- VIT Chennai (2022- 2026)
+            </p>
             <p><a href="https://chennai.vit.ac.in/" target="_blank">VIT Chennai</a></p>
         </section>
 
         <section>
             <h2>Skills</h2>
             <ul>
-                <li>Programming Languages:
+                <li><span class="code-icon">
+                        <i class="fas fa-code"></i>
+                    </span>
+                    Programming Languages:
                     <ul>
                         <li><strong>Python</strong></li>
                         <li><strong>Java</strong></li>
                         <li><strong>C++</strong></li>
                     </ul>
                 </li>
-                <li>Web Development</li>
-                <li>App Development</li>
+                <li><span class="code-icon">
+                        <i class="fas fa-code"></i>
+                    </span>
+                    Web Development</li>
+                <li><span class="code-icon">
+                        <i class="fas fa-code"></i>
+                    </span>
+                    App Development</li>
             </ul>
         </section>
 
